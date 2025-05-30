@@ -14,8 +14,6 @@ body {
 header {
   background: rgba(0, 0, 0, 0.8);
   padding: 1rem;
-  position: sticky;
-  top: 0;
   z-index: 100;
 }
 
@@ -168,6 +166,11 @@ footer {
 }
 
 @media (min-width: 768px) {
+  header {
+    position: sticky;
+    top: 0;
+  }
+
   nav {
     flex-direction: row;
     justify-content: space-between;
